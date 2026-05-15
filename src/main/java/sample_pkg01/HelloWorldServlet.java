@@ -33,11 +33,11 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<title>Hello World!</title>");
+		out.println("<title>Encoding Sample</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("<h1>Hello World!</h1>");
-		out.println("<p>First Servlet</p>");
+		out.println("<h1>Encoding Sample</h1>");
+		out.println("<p>こんにちは。</p>");
 		out.println("</body></html>");
 		//.getWriter().append("Served at: ").append(request.getContextPath());
 	}
